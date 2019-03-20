@@ -1,0 +1,167 @@
+Error while generating pawn. Rethrowing. Exception: System.ArgumentNullException: Argument cannot be null.
+Parameter name: type
+at System.Activator.CheckType (System.Type) <0x00095>
+at System.Activator.CreateInstance (System.Type,bool) <0x00027>
+at System.Activator.CreateInstance (System.Type) <0x0001e>
+at Verse.PawnCapacityDef.get_Worker () <0x00033>
+at Verse.PawnCapacityUtility.CalculateCapacityLevel (Verse.HediffSet,Verse.PawnCapacityDef,System.Collections.Generic.List`1<Verse.PawnCapacityUtility/CapacityImpactor>) <0x000d8>
+at Verse.PawnCapacitiesHandler.GetLevel (Verse.PawnCapacityDef) <0x00122>
+at Verse.PawnCapacitiesHandler.CapableOf (Verse.PawnCapacityDef) <0x00023>
+at Verse.Pawn_HealthTracker.ShouldBeDeadFromRequiredCapacity () <0x000b2>
+at (wrapper dynamic-method) Verse.Pawn_HealthTracker.ShouldBeDead_Patch0 (object) <0x000a6>
+at Verse.Pawn_HealthTracker.WouldDieAfterAddingHediff (Verse.Hediff) <0x00084>
+at RimWorld.AgeInjuryUtility.GenerateRandomOldAgeInjuries (Verse.Pawn,bool) <0x00949>
+at (wrapper dynamic-method) Verse.PawnGenerator.GenerateInitialHediffs_Patch1 (Verse.Pawn,Verse.PawnGenerationRequest) <0x00039>
+at Verse.PawnGenerator.TryGenerateNewPawnInternal (Verse.PawnGenerationRequest&,string&,bool,bool) <0x007c4>
+at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest&) <0x003b0>
+at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest) <0x007bb>
+at (wrapper dynamic-method) Verse.PawnGenerator.GeneratePawn_Patch2 (Verse.PawnGenerationRequest) <0x000ca>
+
+Verse.Log:Error(String, Boolean)
+Verse.PawnGenerator:GeneratePawn_Patch2(PawnGenerationRequest)
+Verse.PawnGenerator:GeneratePawn(PawnKindDef, Faction)
+RimWorld.Faction:GenerateNewLeader()
+RimWorld.FactionGenerator:NewGeneratedFaction(FactionDef)
+RimWorld.FactionGenerator:GenerateFactionsIntoWorld()
+RimWorld.Planet.WorldGenStep_Factions:GenerateFresh(String)
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Error in WorldGenStep: System.ArgumentNullException: Argument cannot be null.
+Parameter name: type
+at System.Activator.CheckType (System.Type) <0x00095>
+at System.Activator.CreateInstance (System.Type,bool) <0x00027>
+at System.Activator.CreateInstance (System.Type) <0x0001e>
+at Verse.PawnCapacityDef.get_Worker () <0x00033>
+at Verse.PawnCapacityUtility.CalculateCapacityLevel (Verse.HediffSet,Verse.PawnCapacityDef,System.Collections.Generic.List`1<Verse.PawnCapacityUtility/CapacityImpactor>) <0x000d8>
+at Verse.PawnCapacitiesHandler.GetLevel (Verse.PawnCapacityDef) <0x00122>
+at Verse.PawnCapacitiesHandler.CapableOf (Verse.PawnCapacityDef) <0x00023>
+at Verse.Pawn_HealthTracker.ShouldBeDeadFromRequiredCapacity () <0x000b2>
+at (wrapper dynamic-method) Verse.Pawn_HealthTracker.ShouldBeDead_Patch0 (object) <0x000a6>
+at Verse.Pawn_HealthTracker.WouldDieAfterAddingHediff (Verse.Hediff) <0x00084>
+at RimWorld.AgeInjuryUtility.GenerateRandomOldAgeInjuries (Verse.Pawn,bool) <0x00949>
+at (wrapper dynamic-method) Verse.PawnGenerator.GenerateInitialHediffs_Patch1 (Verse.Pawn,Verse.PawnGenerationRequest) <0x00039>
+at Verse.PawnGenerator.TryGenerateNewPawnInternal (Verse.PawnGenerationRequest&,string&,bool,bool) <0x007c4>
+at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest&) <0x003b0>
+at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest) <0x007bb>
+at (wrapper dynamic-method) Verse.PawnGenerator.GeneratePawn_Patch2 (Verse.PawnGenerationRequest) <0x000ca>
+
+Verse.Log:Error(String, Boolean)
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Error while generating pawn. Rethrowing. Exception: System.ArgumentNullException: Argument cannot be null.
+Parameter name: type
+at System.Activator.CheckType (System.Type) <0x00095>
+at System.Activator.CreateInstance (System.Type,bool) <0x00027>
+at System.Activator.CreateInstance (System.Type) <0x0001e>
+at Verse.PawnCapacityDef.get_Worker () <0x00033>
+at Verse.PawnCapacityUtility.CalculateCapacityLevel (Verse.HediffSet,Verse.PawnCapacityDef,System.Collections.Generic.List`1<Verse.PawnCapacityUtility/CapacityImpactor>) <0x000d8>
+at Verse.PawnCapacitiesHandler.GetLevel (Verse.PawnCapacityDef) <0x00122>
+at Verse.PawnCapacitiesHandler.CapableOf (Verse.PawnCapacityDef) <0x00023>
+at Verse.Pawn_HealthTracker.ShouldBeDeadFromRequiredCapacity () <0x000b2>
+at (wrapper dynamic-method) Verse.Pawn_HealthTracker.ShouldBeDead_Patch0 (object) <0x000a6>
+at Verse.Pawn_HealthTracker.WouldDieAfterAddingHediff (Verse.Hediff) <0x00084>
+at RimWorld.AgeInjuryUtility.GenerateRandomOldAgeInjuries (Verse.Pawn,bool) <0x00949>
+at (wrapper dynamic-method) Verse.PawnGenerator.GenerateInitialHediffs_Patch1 (Verse.Pawn,Verse.PawnGenerationRequest) <0x00039>
+at Verse.PawnGenerator.TryGenerateNewPawnInternal (Verse.PawnGenerationRequest&,string&,bool,bool) <0x007c4>
+at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest&) <0x003b0>
+at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest) <0x007bb>
+at (wrapper dynamic-method) Verse.PawnGenerator.GeneratePawn_Patch2 (Verse.PawnGenerationRequest) <0x000ca>
+
+Verse.Log:Error(String, Boolean)
+Verse.PawnGenerator:GeneratePawn_Patch2(PawnGenerationRequest)
+Verse.StartingPawnUtility:NewGeneratedStartingPawn_Patch2()
+RimWorld.ScenPart_ConfigPage_ConfigureStartingPawns:PostWorldGenerate()
+RimWorld.Scenario:PostWorldGenerate()
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+There was an exception thrown by the PawnGenerator during generating a starting pawn. Trying one more time...
+Exception: System.ArgumentNullException: Argument cannot be null.
+Parameter name: type
+at System.Activator.CheckType (System.Type) <0x00095>
+at System.Activator.CreateInstance (System.Type,bool) <0x00027>
+at System.Activator.CreateInstance (System.Type) <0x0001e>
+at Verse.PawnCapacityDef.get_Worker () <0x00033>
+at Verse.PawnCapacityUtility.CalculateCapacityLevel (Verse.HediffSet,Verse.PawnCapacityDef,System.Collections.Generic.List`1<Verse.PawnCapacityUtility/CapacityImpactor>) <0x000d8>
+at Verse.PawnCapacitiesHandler.GetLevel (Verse.PawnCapacityDef) <0x00122>
+at Verse.PawnCapacitiesHandler.CapableOf (Verse.PawnCapacityDef) <0x00023>
+at Verse.Pawn_HealthTracker.ShouldBeDeadFromRequiredCapacity () <0x000b2>
+at (wrapper dynamic-method) Verse.Pawn_HealthTracker.ShouldBeDead_Patch0 (object) <0x000a6>
+at Verse.Pawn_HealthTracker.WouldDieAfterAddingHediff (Verse.Hediff) <0x00084>
+at RimWorld.AgeInjuryUtility.GenerateRandomOldAgeInjuries (Verse.Pawn,bool) <0x00949>
+at (wrapper dynamic-method) Verse.PawnGenerator.GenerateInitialHediffs_Patch1 (Verse.Pawn,Verse.PawnGenerationRequest) <0x00039>
+at Verse.PawnGenerator.TryGenerateNewPawnInternal (Verse.PawnGenerationRequest&,string&,bool,bool) <0x007c4>
+at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest&) <0x003b0>
+at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest) <0x007bb>
+at (wrapper dynamic-method) Verse.PawnGenerator.GeneratePawn_Patch2 (Verse.PawnGenerationRequest) <0x000ca>
+
+Verse.Log:Error(String, Boolean)
+Verse.StartingPawnUtility:NewGeneratedStartingPawn_Patch2()
+RimWorld.ScenPart_ConfigPage_ConfigureStartingPawns:PostWorldGenerate()
+RimWorld.Scenario:PostWorldGenerate()
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Error while generating pawn. Rethrowing. Exception: System.ArgumentNullException: Argument cannot be null.
+Parameter name: type
+at System.Activator.CheckType (System.Type) <0x00095>
+at System.Activator.CreateInstance (System.Type,bool) <0x00027>
+at System.Activator.CreateInstance (System.Type) <0x0001e>
+at Verse.PawnCapacityDef.get_Worker () <0x00033>
+at Verse.PawnCapacityUtility.CalculateCapacityLevel (Verse.HediffSet,Verse.PawnCapacityDef,System.Collections.Generic.List`1<Verse.PawnCapacityUtility/CapacityImpactor>) <0x000d8>
+at Verse.PawnCapacitiesHandler.GetLevel (Verse.PawnCapacityDef) <0x00122>
+at Verse.PawnCapacitiesHandler.CapableOf (Verse.PawnCapacityDef) <0x00023>
+at Verse.Pawn_HealthTracker.ShouldBeDeadFromRequiredCapacity () <0x000b2>
+at (wrapper dynamic-method) Verse.Pawn_HealthTracker.ShouldBeDead_Patch0 (object) <0x000a6>
+at Verse.Pawn_HealthTracker.WouldDieAfterAddingHediff (Verse.Hediff) <0x00084>
+at Verse.Pawn_HealthTracker.WouldDieAfterAddingHediff (Verse.HediffDef,Verse.BodyPartRecord,single) <0x0007e>
+at RimWorld.ScenPart_ForcedHediff.AllowPlayerStartingPawn (Verse.Pawn,bool,Verse.PawnGenerationRequest) <0x0006a>
+at RimWorld.Scenario.AllowPlayerStartingPawn (Verse.Pawn,bool,Verse.PawnGenerationRequest) <0x000b8>
+at Verse.PawnGenerator.TryGenerateNewPawnInternal (Verse.PawnGenerationRequest&,string&,bool,bool) <0x00b60>
+at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest&) <0x003b0>
+at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest) <0x007bb>
+at (wrapper dynamic-method) Verse.PawnGenerator.GeneratePawn_Patch2 (Verse.PawnGenerationRequest) <0x000ca>
+
+Verse.Log:Error(String, Boolean)
+Verse.PawnGenerator:GeneratePawn_Patch2(PawnGenerationRequest)
+Verse.StartingPawnUtility:NewGeneratedStartingPawn_Patch2()
+RimWorld.ScenPart_ConfigPage_ConfigureStartingPawns:PostWorldGenerate()
+RimWorld.Scenario:PostWorldGenerate()
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Exception from asynchronous event: System.ArgumentNullException: Argument cannot be null.
+Parameter name: type
+at System.Activator.CheckType (System.Type) <0x00095>
+at System.Activator.CreateInstance (System.Type,bool) <0x00027>
+at System.Activator.CreateInstance (System.Type) <0x0001e>
+at Verse.PawnCapacityDef.get_Worker () <0x00033>
+at Verse.PawnCapacityUtility.CalculateCapacityLevel (Verse.HediffSet,Verse.PawnCapacityDef,System.Collections.Generic.List`1<Verse.PawnCapacityUtility/CapacityImpactor>) <0x000d8>
+at Verse.PawnCapacitiesHandler.GetLevel (Verse.PawnCapacityDef) <0x00122>
+at Verse.PawnCapacitiesHandler.CapableOf (Verse.PawnCapacityDef) <0x00023>
+at Verse.Pawn_HealthTracker.ShouldBeDeadFromRequiredCapacity () <0x000b2>
+at (wrapper dynamic-method) Verse.Pawn_HealthTracker.ShouldBeDead_Patch0 (object) <0x000a6>
+at Verse.Pawn_HealthTracker.WouldDieAfterAddingHediff (Verse.Hediff) <0x00084>
+at Verse.Pawn_HealthTracker.WouldDieAfterAddingHediff (Verse.HediffDef,Verse.BodyPartRecord,single) <0x0007e>
+at RimWorld.ScenPart_ForcedHediff.AllowPlayerStartingPawn (Verse.Pawn,bool,Verse.PawnGenerationRequest) <0x0006a>
+at RimWorld.Scenario.AllowPlayerStartingPawn (Verse.Pawn,bool,Verse.PawnGenerationRequest) <0x000b8>
+at Verse.PawnGenerator.TryGenerateNewPawnInternal (Verse.PawnGenerationRequest&,string&,bool,bool) <0x00b60>
+at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest&) <0x003b0>
+at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest) <0x007bb>
+at (wrapper dynamic-method) Verse.PawnGenerator.GeneratePawn_Patch2 (Verse.PawnGenerationRequest) <0x000ca>
+
+Verse.Log:Error(String, Boolean)
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
